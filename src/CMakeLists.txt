@@ -7,8 +7,10 @@ set(SOURCE
 
         )
 set(INCLUDE
-        ${MY_DIRECTORY}/
-        ${MY_DIRECTORY}/
+        ${MY_DIRECTORY}/Circle.h
+        ${MY_DIRECTORY}/Rectangle.h
+        ${MY_DIRECTORY}/Shape.h
+        ${MY_DIRECTORY}/Triangle.h
         )
 
 
