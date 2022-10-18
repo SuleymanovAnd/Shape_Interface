@@ -3,4 +3,4 @@ project(Shape_Interface)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Shape_Interface src/main.cpp)
+add_subdirectory(src)

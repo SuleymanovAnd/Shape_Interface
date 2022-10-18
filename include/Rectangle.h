@@ -1,7 +1,7 @@
 #include <iostream>
 #include "Shape.h"
 
-class Rectangle : virtual Shape {
+class Rectangle : public Shape {
     int longSide;
     int width;
 
@@ -10,7 +10,9 @@ class Rectangle : virtual Shape {
     };
 
     virtual double square() {
-
+        return longSide * width;
     };
-
+    virtual std::string type(){
+        return "Rectangle";
+    }
 };

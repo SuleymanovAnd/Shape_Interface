@@ -1,6 +1,7 @@
 #include <iostream>
+#include "Triangle.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    Triangle t(3,4,5);
+    printParams(&t);
 }
